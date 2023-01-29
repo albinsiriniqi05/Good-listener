@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, HashRouter as Routes } from "react-router-dom";
 import DashboardListener from "./Components/DashboardListener/MainListener";
 import DashboardTalker from "./Components/DashboardTalker/MainTalker";
 import ReviewTalkerPage from "./Components/DashboardTalker/ReviewTalkerPage";
